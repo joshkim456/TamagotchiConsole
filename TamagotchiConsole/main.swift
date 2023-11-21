@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let pooMachineTamagotchi = Tamagotchi(name: "Poo Machine")
 
+pooMachineTamagotchi.eatSnack()
+print(pooMachineTamagotchi.weight)
